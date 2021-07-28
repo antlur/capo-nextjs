@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "source": "capo-source"
   },
   "dependencies": {
     "capo-data-sourcer": "^0.1.0",
