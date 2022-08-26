@@ -1,13 +1,12 @@
-import Head from 'next/head'
+import Layout from "@/components/Layout";
+import Container from "../components/Container";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Capo Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      Hello
-    </div>
-  )
+    <Layout>
+      <Container>
+        <h1 className="text-6xl font-bold">Hello, world!</h1>
+      </Container>
+    </Layout>
+  );
 }

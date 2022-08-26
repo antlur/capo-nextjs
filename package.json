@@ -10,10 +10,15 @@
     "source": "capo-source"
   },
   "dependencies": {
+    "@radix-ui/react-icons": "^1.1.1",
     "capo-data-sourcer": "^0.1.0",
+    "framer-motion": "^7.2.1",
     "next": "^12.2.0",
+    "nextjs-google-analytics": "^2.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-schemaorg": "^2.0.0",
+    "schema-dts": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.36",
